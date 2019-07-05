@@ -1,6 +1,9 @@
 # Mythic Ping
 This is a super basic ping system which allows players to send their location as a blip to another player
 
+![Image 1](https://i.imgur.com/t7SDvTr.png)
+![Image 2](https://i.imgur.com/dlnZ3Hm.jpg)
+
 Dependencies :
 - [Mythic Notify](https://github.com/mythicrp/mythic_notify)
 
