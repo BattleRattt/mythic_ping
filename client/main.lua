@@ -87,3 +87,14 @@ AddEventHandler('mythic_ping:client:RejectPing', function()
         exports['mythic_notify']:DoHudText('inform', 'You Have No Pending Ping')
     end
 end)
+
+RegisterNetEvent('mythic_ping:client:RemovePing')
+AddEventHandler('mythic_ping:client:RemovePing', function()
+    if pendingPing ~= nil then
+        RemoveBlip(pendingPing.blip)
+        pendingPing = nil
+        exports['mythic_notify']:DoHudText('inform', 'Player Ping Removed')
+    else
+        exports['mythic_notify']:DoHudText('inform', 'You Have No Player Ping')
+    end
+end)

@@ -9,5 +9,6 @@ Dependencies :
 
 ### Usage
 - /ping <id> | Sends Ping To Player With Provided Server ID
-- /ping accept | Accepts A Pending Ping
-- /ping reject | Rejects A Pending Ping
+- /ping accept | Accepts Pending Ping
+- /ping reject | Rejects Pending Ping
+- /ping remove | Removes Player Ping Blip From Map
